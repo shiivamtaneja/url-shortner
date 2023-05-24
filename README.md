@@ -5,6 +5,7 @@ This is a URL shortener service that takes a valid URL as input and returns a sh
 
 - Express
 - Mogoose
+- Nano ID
 
 ## Routes
 
