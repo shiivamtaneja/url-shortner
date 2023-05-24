@@ -26,6 +26,15 @@ This is a URL shortener service that takes a valid URL as input and returns a sh
 - **GET /:id**
   Redirects the user to the original URL associated with the provided short ID. Use this route to visit the shortened URL and get redirected to the original URL.
 
+  ### Screenshot demonstrating redirection from shortened URL
+  ![Screenshot of the getting redirected to URL from shortened URL](./images/get-redirectedurl.jpg)
+
+  ### Video demonstrating redirection from shortened URL
+  ![Screenshot of the getting redirected to URL from shortened URL](./images/video-redirecturl.mp4)
+
+  ### Databse Storing the Visit History
+  ![Screenshot of the Valid URL in db](./images/get-redirectedurl-db.jpg)
+
 - **GET /URL/analytics/:id**
   Returns the number of clicks for the provided short ID. Use this route to get analytics information for a specific shortened URL.
 
