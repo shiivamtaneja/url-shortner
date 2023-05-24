@@ -30,7 +30,7 @@ This is a URL shortener service that takes a valid URL as input and returns a sh
   ![Screenshot of the getting redirected to URL from shortened URL](./images/get-redirectedurl.jpg)
 
   ### Video demonstrating redirection from shortened URL
-  ![Screenshot of the getting redirected to URL from shortened URL](./images/video-redirecturl.mp4)
+  ![Vidoe of the getting redirected to URL from shortened URL](https://github.com/shiivamtaneja/url-shortner/assets/79853285/a3b17d92-a6b5-44c7-8b92-b252c86a385c)
 
   ### Databse Storing the Visit History
   ![Screenshot of the Valid URL in db](./images/get-redirectedurl-db.jpg)
