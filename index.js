@@ -1,5 +1,6 @@
 const express = require('express')
 const { connectToMongeDB } = require('./connect')
+const { handleGetAnalytics } = require('./controllers/url')
 const urlRoute = require('./routes/url')
 const URL = require('./models/urls')
 const app = express()
@@ -25,5 +26,7 @@ app.get('/:shortId', async (req, res) => {
 
     res.redirect(entry.redirectUrl)
 })
+
+app.get('/analytics/:shortId', handleGetAnalytics)
 
 app.listen(PORT, () => console.log(`server started at PORT: ${PORT}`))

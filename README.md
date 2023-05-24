@@ -35,8 +35,11 @@ This is a URL shortener service that takes a valid URL as input and returns a sh
   ### Databse Storing the Visit History
   ![Screenshot of the Valid URL in db](./images/get-redirectedurl-db.jpg)
 
-- **GET /URL/analytics/:id**
+- **GET /analytics/:id**
   Returns the number of clicks for the provided short ID. Use this route to get analytics information for a specific shortened URL.
+
+  ### Getting the analytics of the shortened URL.
+  ![Screenshot of the getting the total clicks on the shortened URL](./images/analytics.jpg)
 
 
 ## Credits
