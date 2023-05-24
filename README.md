@@ -19,6 +19,9 @@ This is a URL shortener service that takes a valid URL as input and returns a sh
     ### Providing Invalid URL
     ![Screenshot of the Invalid POST method](./images/post-req-err.jpg)
 
+    ### Databse Storing the Valid URL Provided
+    ![Screenshot of the Valid URL in db](./images/db-url.jpg)
+
 
 - **GET /:id**
   Redirects the user to the original URL associated with the provided short ID. Use this route to visit the shortened URL and get redirected to the original URL.
