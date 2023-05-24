@@ -41,6 +41,10 @@ This is a URL shortener service that takes a valid URL as input and returns a sh
   ### Getting the analytics of the shortened URL.
   ![Screenshot of the getting the total clicks on the shortened URL](./images/analytics.jpg)
 
+## Future Scope
+- String Checking before adding in db.
+- Connect with Frontend Framework.
+- Find the most poupluar links.
 
 ## Credits
 
