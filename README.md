@@ -11,8 +11,13 @@ This is a URL shortener service that takes a valid URL as input and returns a sh
 ## Routes
 
 - **POST /URL**
-    Generates a new short URL and returns the shortened URL in the format `example.com/random-id`. Use this route to create a new shortened URL by providing a valid URL in the request.
-    ![Example screenshot of the POST method](./images/post-req.jpg)
+    Generates a new short URL and returns the shortened URL in the format `example.com/random-id`. Use this route to create a new shortened URL by providing a valid URL in the 
+    request.
+
+    ### Providing Valid URL
+    ![Screenshot of the Valid POST method](./images/post-req.jpg)
+    ### Providing Invalid URL
+    ![Screenshot of the Invalid POST method](./images/post-req-err.jpg)
 
 
 - **GET /:id**
